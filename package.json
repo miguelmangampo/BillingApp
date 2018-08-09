@@ -1,0 +1,41 @@
+{
+  "name": "NativebaseKitchenSink",
+  "version": "2.3.1",
+  "private": true,
+  "devDependencies": {
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.13"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|native-base-shoutem-theme)"
+    ]
+  },
+  "dependencies": {
+    "color": "~1.0.3",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "native-base": "2.3.1",
+    "native-charts": "^0.1.1",
+    "numeral": "^2.0.6",
+    "react": "16.0.0-alpha.13",
+    "react-native": "0.46.4",
+    "react-native-chart": "^1.0.8-beta",
+    "react-native-fbsdk": "^0.6.3",
+    "react-native-fit-image": "^1.5.4",
+    "react-native-maps": "^0.19.0",
+    "react-native-modal": "^4.1.1",
+    "react-native-popup-menu": "^0.12.1",
+    "react-native-restart": "0.0.1",
+    "react-native-svg": "^6.0.1-rc.1",
+    "react-navigation": "1.0.0-beta.11",
+    "victory-native": "^0.16.5"
+  }
+}
